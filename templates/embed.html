@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device=width, initial-scale=1">
+        <title>Bokeh and Flask App</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script> -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!--         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"> -->
+        <link
+            href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.16.min.css"
+            rel="stylesheet" type="text/css">
+        <link
+            href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.16.min.css"
+            rel="stylesheet" type="text/css">
+        <link
+            href="https://cdn.pydata.org/bokeh/release/bokeh-tables-0.12.16.min.css"
+            rel="stylesheet" type="text/css">
+
+        <script src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.16.min.js"></script>
+        <script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.16.min.js"></script>
+        <script src="https://cdn.pydata.org/bokeh/release/bokeh-tables-0.12.16.min.js"></script>
+
+
+
+    </head>
+
+<body>
+<!--   <div>
+    This Bokeh app below served by a Bokeh server that has been embedded
+    in another web app framework. For more information see the section
+    <a  target="_blank" href="https://bokeh.pydata.org/en/latest/docs/user_guide/server.html#embedding-bokeh-server-as-a-library">Embedding Bokeh Server as a Library</a>
+    in the User's Guide.
+  </div> -->
+  {{ script|safe }}
+</body>
+</html>
